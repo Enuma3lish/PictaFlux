@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv venv:*)",
+      "Bash(cmd /c \"uv venv --python 3.12\")",
+      "Bash(cmd /c \"uv sync\")",
+      "Bash(cmd /c \"dir .venv\")",
+      "Bash(powershell:*)",
+      "Bash(docker-compose down:*)",
+      "Bash(docker-compose build:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose ps:*)",
+      "Bash(docker logs:*)",
+      "Bash(docker-compose restart:*)",
+      "Bash(docker exec:*)",
+      "Bash(.venvScriptspython.exe backendtest_demo_flow.py)",
+      "Bash(timeout:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.pollo.ai)",
+      "WebFetch(domain:docs.goenhance.ai)",
+      "Bash(cat:*)",
+      "Bash(findstr:*)",
+      "Bash(docker-compose:*)",
+      "Bash(curl:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
+    ]
+  }
+}
