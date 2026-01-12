@@ -1,0 +1,602 @@
+{
+  "app": {
+    "name": "VidGo AI",
+    "tagline": "AI-Powered Creative Platform"
+  },
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "api": "API",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "myWorks": "My Works"
+  },
+  "hero": {
+    "title": "Create Stunning Visuals with AI",
+    "subtitle": "Professional pattern design, e-commerce product photography, and AI video creation - all in one platform",
+    "cta": "Try Free",
+    "secondaryCta": "View Plans"
+  },
+  "topics": {
+    "pattern": {
+      "name": "Pattern Design",
+      "desc": "AI-powered pattern generation and transfer",
+      "longDesc": "Use AI to quickly generate unique patterns, supporting seamless, floral, geometric and more styles",
+      "ctaTitle": "Start Creating Unique Patterns",
+      "ctaDesc": "Use AI to generate professional patterns, with multiple styles to choose from"
+    },
+    "product": {
+      "name": "Product Photos",
+      "desc": "Professional product photography solutions",
+      "longDesc": "Smart background removal, scene generation, product enhancement - make your products stand out",
+      "processDesc": "One-click processing for professional product images",
+      "ctaTitle": "Upgrade Your Product Images",
+      "ctaDesc": "Professional background removal and scene generation for e-commerce success"
+    },
+    "video": {
+      "name": "AI Video",
+      "desc": "Turn static images into dynamic videos",
+      "longDesc": "Image-to-video, style transformation, multiple artistic styles to choose from",
+      "imageToVideo": "Image to Video",
+      "styleTransform": "Style Transform",
+      "stylesDesc": "Multiple artistic styles to make your videos stand out",
+      "ctaTitle": "Bring Your Images to Life",
+      "ctaDesc": "One-click video generation with multiple styles to choose from"
+    },
+    "avatar": {
+      "name": "AI Avatar",
+      "desc": "Photo-to-avatar with natural lip sync",
+      "longDesc": "Transform photos into talking avatar videos with AI voice and expressions"
+    },
+    "interior": {
+      "name": "Interior Design",
+      "desc": "AI-powered room redesign",
+      "longDesc": "Transform any room with AI. Upload a photo and describe your dream space."
+    }
+  },
+  "tools": {
+    "avatar": {
+      "name": "AI Avatar",
+      "desc": "Photo to talking avatar video",
+      "longDesc": "Transform photos into talking avatar videos with natural lip sync",
+      "avatarPhoto": "Avatar Photo",
+      "script": "Script",
+      "scriptPlaceholder": "Enter the text you want your avatar to speak...",
+      "maxSpeech": "Max 120 seconds of speech",
+      "voiceSettings": "Voice Settings",
+      "language": "Language",
+      "voice": "Voice",
+      "female": "Female",
+      "male": "Male",
+      "defaultAvatars": "Or choose a default avatar:",
+      "changePhoto": "Change Photo",
+      "generatedVideo": "Generated Avatar Video",
+      "videoPlaceholder": "Avatar video will appear here",
+      "processing": "Generating avatar video... This may take a few minutes"
+    },
+    "patternGenerate": {
+      "name": "Pattern Generate",
+      "desc": "Generate unique patterns from text descriptions",
+      "longDesc": "Create beautiful, unique patterns from text descriptions using AI"
+    },
+    "patternTransfer": {
+      "name": "Pattern Transfer",
+      "desc": "Apply patterns to products",
+      "longDesc": "Seamlessly apply patterns onto product surfaces"
+    },
+    "patternSeamless": {
+      "name": "Seamless Pattern",
+      "desc": "Generate tileable seamless patterns",
+      "longDesc": "Create patterns that tile perfectly without visible seams"
+    },
+    "removeBackground": {
+      "name": "Background Removal",
+      "desc": "Remove image backgrounds with one click"
+    },
+    "productScene": {
+      "name": "Scene Generation",
+      "desc": "Generate professional scenes for products",
+      "longDesc": "Place your products in professional, AI-generated scenes"
+    },
+    "productEnhance": {
+      "name": "Product Enhancement",
+      "desc": "Improve product image quality",
+      "longDesc": "Enhance product images with AI-powered quality improvement"
+    },
+    "imageToVideo": {
+      "name": "Image to Video",
+      "desc": "Convert static images to dynamic videos",
+      "longDesc": "Transform still images into captivating animated videos"
+    },
+    "videoTransform": {
+      "name": "Style Transform",
+      "desc": "Transform videos into artistic styles",
+      "longDesc": "Apply artistic styles like anime, Ghibli, or watercolor to your videos"
+    },
+    "productVideo": {
+      "name": "Product Video",
+      "desc": "Create product showcase videos",
+      "longDesc": "Generate dynamic product showcase videos automatically"
+    },
+    "backgroundRemoval": {
+      "name": "Background Removal",
+      "desc": "Remove backgrounds instantly with AI",
+      "longDesc": "Automatically detect and remove backgrounds from any image with one click"
+    },
+    "tryOn": {
+      "name": "Virtual Try-On",
+      "desc": "Virtual clothing try-on",
+      "longDesc": "See how clothing looks on different models with AI-powered virtual try-on"
+    },
+    "roomRedesign": {
+      "name": "Room Redesign",
+      "desc": "Transform interior spaces",
+      "longDesc": "Redesign any room with AI-powered interior decoration suggestions"
+    },
+    "shortVideo": {
+      "name": "Short Video",
+      "desc": "Create engaging short videos",
+      "longDesc": "Generate captivating short videos from text descriptions or images"
+    },
+    "common": {
+      "uploadImage": "Upload Image",
+      "uploadVideo": "Upload Video",
+      "settings": "Settings",
+      "motionStrength": "Motion Strength",
+      "gentle": "Gentle",
+      "intense": "Intense",
+      "styleTransform": "Style Transform (Optional)",
+      "originalStyle": "Original Style",
+      "processingTime": "Processing (1-3 min)",
+      "processingTimeLong": "Processing (3-10 min)",
+      "generatedResult": "Generated Result",
+      "transformResult": "Transform Result",
+      "selectScene": "Select Scene",
+      "customPrompt": "Custom Prompt",
+      "describeScene": "Describe your scene",
+      "scenePlaceholder": "e.g., On a marble surface with soft morning light...",
+      "generatedScenes": "Generated Scenes",
+      "productImage": "Product Image",
+      "changeImage": "Change Image",
+      "additionalPrompt": "Additional Prompt (Optional)",
+      "promptPlaceholder": "e.g., Add more details, more saturated colors...",
+      "startTransform": "Start Transform",
+      "examplePrompt": "e.g., Elegant rose floral pattern, gold and navy color scheme..."
+    },
+    "scenes": {
+      "studio": { "name": "Studio", "desc": "Clean studio lighting" },
+      "nature": { "name": "Nature", "desc": "Natural outdoor setting" },
+      "luxury": { "name": "Luxury", "desc": "Premium elegant style" },
+      "minimal": { "name": "Minimal", "desc": "Clean minimal backdrop" },
+      "lifestyle": { "name": "Lifestyle", "desc": "Home environment" },
+      "custom": { "name": "Custom", "desc": "Your own prompt" }
+    }
+  },
+  "styles": {
+    "seamless": "Seamless",
+    "floral": "Floral",
+    "geometric": "Geometric",
+    "abstract": "Abstract",
+    "traditional": "Traditional",
+    "3d": "3D Design",
+    "interior": "Interior Design",
+    "mockup": "Product Mockup",
+    "studio": "Studio",
+    "nature": "Nature",
+    "luxury": "Luxury",
+    "minimal": "Minimal",
+    "lifestyle": "Lifestyle",
+    "anime": "Anime Style",
+    "ghibli": "Ghibli Style",
+    "pixar": "Pixar Style",
+    "clay": "Clay Animation",
+    "watercolor": "Watercolor"
+  },
+  "examples": {
+    "title": "Featured Examples",
+    "before": "Before",
+    "after": "After",
+    "viewMore": "View More Examples",
+    "loading": "Loading examples..."
+  },
+  "sections": {
+    "availableTools": "Available Tools",
+    "quickGenerate": "Quick Generate",
+    "quickProcess": "Quick Process",
+    "popularStyles": "Popular Styles",
+    "readyToStart": "Ready to start?",
+    "freeToTry": "Try AI tools for free, unlock unlimited possibilities",
+    "startFree": "Start Free"
+  },
+  "whyChoose": {
+    "title": "Why Choose VidGo AI?",
+    "subtitle": "Professional AI tools for unlimited creative possibilities",
+    "features": {
+      "fast": {
+        "title": "Fast Generation",
+        "desc": "Optimized AI models, results in seconds"
+      },
+      "quality": {
+        "title": "Pro Quality",
+        "desc": "Commercial-grade output for professional needs"
+      },
+      "cost": {
+        "title": "Flexible Pricing",
+        "desc": "Pay as you go, no hidden fees"
+      },
+      "cache": {
+        "title": "Smart Cache",
+        "desc": "Same requests respond faster, saving time"
+      },
+      "api": {
+        "title": "API Integration",
+        "desc": "Full API support for easy integration"
+      }
+    }
+  },
+  "categories": {
+    "aiCreate": "AI Creation",
+    "editing": "Editing Apps",
+    "video": "Video Creation",
+    "architecture": "Architecture",
+    "product": "E-commerce",
+    "portrait": "Portrait"
+  },
+  "homepage": {
+    "topics": {
+      "aiImage": {
+        "title": "AI Image Creation",
+        "desc": "Create stunning images with AI"
+      },
+      "aiVideo": {
+        "title": "AI Video Creation",
+        "desc": "Generate videos from images and text"
+      },
+      "ecommerce": {
+        "title": "Product & E-commerce",
+        "desc": "Enhance product photos for e-commerce"
+      },
+      "architecture": {
+        "title": "Architecture & Interior",
+        "desc": "Redesign rooms and spaces with AI"
+      },
+      "quickTools": {
+        "title": "Quick Tools",
+        "desc": "Fast editing tools for everyday use"
+      },
+      "inspiration": {
+        "title": "Work Inspiration",
+        "desc": "Browse creative examples for inspiration"
+      }
+    },
+    "tools": {
+      "textToImage": "Text to Image",
+      "imageEnhancement": "Image Enhancement",
+      "patternDesign": "Pattern Design",
+      "styleTransfer": "Style Transfer",
+      "imageToVideo": "Image to Video",
+      "videoStyleTransfer": "Video Style Transfer",
+      "aiAvatar": "AI Avatar",
+      "productVideo": "Product Video",
+      "productScene": "Product Scene",
+      "backgroundRemoval": "Background Removal",
+      "productEnhancement": "Product Enhancement",
+      "virtualTryOn": "Virtual Try-On",
+      "roomRedesign": "Room Redesign",
+      "interiorStyle": "Interior Style Transfer",
+      "archVisualization": "Architecture Visualization",
+      "furniturePlacement": "Furniture Placement",
+      "hdUpscaling": "HD Upscaling",
+      "watermarkRemoval": "Watermark Removal",
+      "objectRemoval": "Object Removal",
+      "imageCompression": "Image Compression"
+    },
+    "gallery": {
+      "video": "Video",
+      "recommended": "Recommended",
+      "portrait": "Portrait",
+      "photography": "Photography",
+      "animation": "Animation",
+      "poster": "Poster & Illustration",
+      "anime": "Anime",
+      "ecommerceDesign": "E-commerce Design",
+      "chinese": "Chinese Style",
+      "female": "Female",
+      "male": "Male",
+      "interior": "Interior",
+      "architectureLandscape": "Architecture & Landscape",
+      "toys": "Toys & Figures",
+      "art": "Art",
+      "productDesign": "Product Design",
+      "gameCG": "Game CG",
+      "nature": "Nature",
+      "threeD": "3D",
+      "logoUI": "Logo/UI",
+      "character": "Character IP",
+      "animals": "Animals & Plants",
+      "fantasy": "Fantasy",
+      "scifi": "Sci-Fi"
+    },
+    "promptModal": {
+      "title": "Generation Prompt",
+      "copyPrompt": "Copy Prompt",
+      "tryThis": "Try This",
+      "copied": "Copied!",
+      "close": "Close"
+    },
+    "viewMore": "View More",
+    "seeAll": "See All Examples",
+    "tryNow": "Try Now"
+  },
+  "badges": {
+    "free": "Free",
+    "beta": "Beta",
+    "hot": "Hot",
+    "new": "New",
+    "cached": "Cached"
+  },
+  "common": {
+    "back": "Back",
+    "upload": "Upload",
+    "generate": "Generate",
+    "download": "Download",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "success": "Success",
+    "error": "Error",
+    "dragDrop": "Drag & drop files here or click to upload",
+    "supportedFormats": "Supported formats: JPG, PNG, WEBP",
+    "supportedVideoFormats": "Supported formats: MP4, MOV, WEBM",
+    "maxSize": "Max size: 10MB",
+    "credits": "Credits",
+    "estimatedCost": "Estimated cost",
+    "tryExample": "Try Example",
+    "selectStyle": "Select Style",
+    "enterPrompt": "Enter Description",
+    "uploadImage": "Upload Image",
+    "uploadVideo": "Upload Video",
+    "result": "Result",
+    "previewComingSoon": "Preview coming soon",
+    "startFree": "Start Free"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "verificationCode": "Verification Code",
+    "sendCode": "Send Code",
+    "resendCode": "Resend Code",
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to your account",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join VidGo AI today",
+    "verifyTitle": "Verify Email",
+    "verifySubtitle": "Enter the 6-digit code sent to your email",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "signIn": "Sign in"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "totalCredits": "Total Credits",
+    "usedThisWeek": "Used This Week",
+    "recentWorks": "Recent Works",
+    "quickActions": "Quick Actions",
+    "viewAll": "View All"
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Start free and scale as you grow",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "demo": "Demo",
+    "starter": "Starter",
+    "pro": "Pro",
+    "proPlus": "Pro+",
+    "free": "Free",
+    "currentPlan": "Current Plan",
+    "upgrade": "Upgrade",
+    "getStarted": "Get Started",
+    "features": "Features",
+    "status": "Status",
+    "validUntil": "Valid until",
+    "daysLeft": "days left",
+    "processing": "Processing...",
+    "subscribing": "Subscribing...",
+    "cancelSubscription": "Cancel Subscription",
+    "cancelWithRefund": "Cancel with Refund",
+    "subscribeSuccess": "Subscription activated successfully!",
+    "redirectingToPayment": "Redirecting to payment...",
+    "subscribeFailed": "Failed to subscribe. Please try again.",
+    "refundProcessed": "Refund processed successfully. Your subscription has been cancelled.",
+    "subscriptionCancelled": "Subscription cancelled. You can continue using credits until the end of your billing period.",
+    "cancelFailed": "Failed to cancel subscription. Please try again.",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "credits": {
+        "q": "What are credits?",
+        "a": "Credits are used to generate content. Different tools consume different amounts of credits based on complexity."
+      },
+      "rollover": {
+        "q": "Do unused credits roll over?",
+        "a": "Monthly credits reset at the end of each billing period. Purchased credit packs never expire."
+      },
+      "change": {
+        "q": "Can I upgrade or downgrade?",
+        "a": "Yes, you can change your plan at any time. Changes take effect at the next billing cycle."
+      },
+      "refund": {
+        "q": "What is the refund policy?",
+        "a": "You can request a full refund within 7 days of subscribing. After 7 days, you can still cancel but will retain access until the end of your billing period."
+      }
+    }
+  },
+  "footer": {
+    "about": "About",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "copyright": "© 2024 VidGo AI. All rights reserved."
+  },
+  "interior": {
+    "badge": "AI Interior Design",
+    "title": "AI Interior Design",
+    "subtitle": "Transform any room with AI-powered interior design. Upload a photo and describe your dream space.",
+    "processing": "Generating design...",
+    "tabs": {
+      "redesign": "Redesign Room",
+      "generate": "Generate Design",
+      "styleTransfer": "Style Transfer"
+    },
+    "uploadTitle": "Upload Room Photo",
+    "roomType": "Room Type",
+    "designStyle": "Design Style",
+    "prompt": "Describe Your Changes",
+    "promptPlaceholder": "e.g., Modern minimalist with grey sofa, wooden coffee table, and indoor plants...",
+    "examplePrompts": "Try these examples",
+    "result": "Design Result",
+    "resultPlaceholder": "Your redesigned room will appear here",
+    "resultHint": "Upload a room photo or describe your dream design",
+    "before": "Before",
+    "after": "After",
+    "tryAnother": "Try Another",
+    "actions": {
+      "redesign": "Redesign Room",
+      "generate": "Generate Design",
+      "applyStyle": "Apply Style"
+    },
+    "success": {
+      "redesigned": "Room redesigned successfully!",
+      "generated": "Design generated successfully!",
+      "styleApplied": "Style applied successfully!"
+    },
+    "errors": {
+      "imageRequired": "Please upload a room image",
+      "promptRequired": "Please describe your design",
+      "imageAndPromptRequired": "Please upload an image and describe your changes",
+      "styleRequired": "Please select a design style",
+      "failed": "Design generation failed. Please try again."
+    },
+    "features": {
+      "title": "Powered by Gemini AI",
+      "imageText": "Image + Text: Upload room photo with description",
+      "textOnly": "Text Only: Generate design from description",
+      "multiStyle": "10 design styles: Modern, Nordic, Japanese, and more",
+      "keepLayout": "Preserves room layout and window positions"
+    }
+  },
+  "landing": {
+    "badge": "AI-Powered Ad Generation Platform",
+    "headline1": "AI Auto-Generate",
+    "headline2": "High-Performance Video Ads",
+    "subtitle": "Let AI create professional video ads for you in just minutes.",
+    "highlight": "Boost conversion rates, save 80% production time and cost",
+    "tryFree": "Try Free Now",
+    "watchDemo": "Watch Demo",
+    "stats": {
+      "users": "Active Users",
+      "timeSaved": "Time Saved",
+      "conversion": "Conversion Boost"
+    },
+    "features": {
+      "title": "Powerful Features,",
+      "titleHighlight": "All in One",
+      "subtitle": "Integrating AI technology with professional marketing tools for comprehensive ad production solutions",
+      "ai": { "title": "AI Smart Generation", "desc": "Advanced AI technology automatically analyzes your needs and generates professional video ads that match your brand identity" },
+      "fast": { "title": "Fast Production", "desc": "Complete video ad production in just 3 minutes, significantly reducing traditional production time" },
+      "target": { "title": "Precise Targeting", "desc": "Intelligent audience analysis to optimize ad content for better click-through and conversion rates" },
+      "data": { "title": "Data Analytics", "desc": "Real-time ad performance tracking with in-depth data analysis and optimization suggestions" },
+      "lang": { "title": "Multi-language Support", "desc": "Support for 30+ languages to easily expand into global markets" },
+      "team": { "title": "Team Collaboration", "desc": "Multi-user collaboration support for teams to create perfect ad content together" }
+    },
+    "howItWorks": {
+      "badge": "How It Works",
+      "title": "Four Steps",
+      "titleHighlight": "Easy Completion",
+      "subtitle": "Simple and intuitive workflow to get you started quickly and create immediately",
+      "step1": { "title": "Upload Assets", "desc": "Upload your product images, videos, or text content, supporting multiple formats" },
+      "step2": { "title": "AI Generation", "desc": "AI automatically analyzes content and generates professional ad scripts and visual effects" },
+      "step3": { "title": "Customize", "desc": "Adjust style, copy, music and other details according to your needs" },
+      "step4": { "title": "Export & Deploy", "desc": "Download the finished product or integrate directly with major ad platforms" }
+    },
+    "examples": {
+      "badge": "Showcase",
+      "title": "Amazing AI-Generated Examples",
+      "subtitle": "View various types of video ad examples and experience AI creativity",
+      "viewMore": "View More Examples",
+      "categories": {
+        "all": "All",
+        "ecommerce": "E-commerce",
+        "social": "Social",
+        "brand": "Brand",
+        "app": "Apps",
+        "promo": "Promo",
+        "service": "Service"
+      }
+    },
+    "comparison": {
+      "badge": "Before & After",
+      "title": "Traditional vs ",
+      "titleHighlight": "AI Smart Production",
+      "subtitle": "See how VIDGO revolutionizes ad production, saving you time and cost",
+      "traditional": "Traditional Method",
+      "aiWay": "VIDGO AI",
+      "recommend": "Recommended",
+      "traditionalItems": ["Requires professional team", "2-4 weeks production", "High cost $5000+", "Difficult revisions", "Professional equipment needed", "High labor costs"],
+      "aiItems": ["No professional skills needed", "Complete in 3 minutes", "Starting at $49/month", "Adjust anytime", "Online operation", "AI automation"],
+      "statTimeSaved": "Time Saved",
+      "statCostReduced": "Cost Reduced",
+      "statEfficiency": "Output Efficiency"
+    },
+    "testimonials": {
+      "badge": "Testimonials",
+      "title": "Trusted by ",
+      "titleHighlight": "10,000+",
+      "titleEnd": " Businesses",
+      "subtitle": "Hear real stories from customers across industries",
+      "avgRating": "Average Rating",
+      "activeUsers": "Active Users",
+      "generatedVideos": "Videos Generated",
+      "satisfaction": "Satisfaction"
+    },
+    "pricing": {
+      "badge": "Pricing Plans",
+      "title": "Choose Your",
+      "titleHighlight": "Perfect Plan",
+      "subtitle": "Flexible pricing options for businesses of all sizes",
+      "mostPopular": "Most Popular",
+      "perMonth": "/month",
+      "originalPrice": "Original",
+      "startNow": "Start Now",
+      "learnMore": "Learn More"
+    },
+    "faq": {
+      "badge": "FAQ",
+      "title": "Frequently Asked",
+      "titleHighlight": "Questions",
+      "subtitle": "Can't find an answer? Contact our support team",
+      "moreQuestions": "Have more questions?",
+      "contactSupport": "Contact Support Team"
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "subtitle": "Start your free trial now and experience the AI-powered ad generation platform",
+      "highlight": "No credit card required, 14-day full feature trial",
+      "noCreditCard": "No credit card",
+      "freeTrial": "14-day free trial",
+      "cancelAnytime": "Cancel anytime",
+      "tryNow": "Try Free Now",
+      "contactSales": "Contact Sales",
+      "socialProof": "Over 500+ businesses choose VIDGO"
+    }
+  }
+}
